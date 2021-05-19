@@ -1,24 +1,52 @@
 body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  margin: -40px 0;
+  font-family: "Comic Sans MS", "Comic Sans";
+  margin: 0 0;
   padding: 0;
   overflow: hidden;
   font-size: 45px;
+  animation: beauty 1s linear infinite;
 }
-.main {
-        margin-top: -10;
-        background: rgb(209, 224, 15);
-        height: 100000px;
-        padding:10px;
-        animation: beauty 1s linear infinite;
-      }
+main {
+  margin-top: -10;
+  height: 100000px;
+  padding: 10px;
+}
 @keyframes beauty {
-
-        100%{
-          filter: hue-rotate(360deg);
-        }
-      }
-      iframe{
-        /visibility: hidden;
-        top: 0;
-      }
+  100%,
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  8% {
+    background-color: rgb(255, 127, 0);
+  }
+  16% {
+    background-color: rgb(255, 255, 0);
+  }
+  25% {
+    background-color: rgb(127, 255, 0);
+  }
+  33% {
+    background-color: rgb(0, 255, 0);
+  }
+  41% {
+    background-color: rgb(0, 255, 127);
+  }
+  50% {
+    background-color: rgb(0, 255, 255);
+  }
+  58% {
+    background-color: rgb(0, 127, 255);
+  }
+  66% {
+    background-color: rgb(0, 0, 255);
+  }
+  75% {
+    background-color: rgb(127, 0, 255);
+  }
+  83% {
+    background-color: rgb(255, 0, 255);
+  }
+  91% {
+    background-color: rgb(255, 0, 127);
+  }
+}
