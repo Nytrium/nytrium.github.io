@@ -2,8 +2,6 @@ body {
   font-family: "Comic Sans MS", "Comic Sans";
   margin: 0 0;
   padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
   font-size: 45px;
   animation: beauty 1000ms linear infinite;
 }
