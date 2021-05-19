@@ -4,7 +4,7 @@ body {
   padding: 0;
   overflow: hidden;
   font-size: 45px;
-  animation: beauty 5ms linear infinite;
+  animation: beauty 1000ms linear infinite;
 }
 main {
   margin-top: -10;
