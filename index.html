@@ -62,7 +62,7 @@
         <div class="custom-control custom-switch align-righ">
           <input type="checkbox" class="custom-control-input" id="darkSwitch" />
           <label class="custom-control-label" for="darkSwitch"
-            >Activate Dark Mode</label
+            >Dark Mode</label
           >
         </div>
       </div>
@@ -77,11 +77,21 @@
             "
           ></div>
           <div class="about-me">
-            <p>
-              Hello! Welcome to our website.&nbsp;We are a group consisting of
-              two people, and do stupid shit together. We have a passion for
-              minimal and clean looking interfaces, too.
-            </p>
+            <p id="intro"></p>
+            <script>
+                var i = 0;
+                var txt = 'Hello! Welcome to our website. We are a group consisting of two people, that do stupid shit together. Oh, and if it wasn\'t obvious enough, we have a passion for minimal and clean looking interfaces, too.';
+                var speed = 50;
+                
+                function typeWriter() {
+                  if (i < txt.length) {
+                    document.getElementById("intro").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                  }
+                }
+                window.onload = typeWriter;
+            </script>
           </div>
           <div class="about-me">
             <a
