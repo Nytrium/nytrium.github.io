@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css2?&family=Poppins&display=swap);
 
 body {
+    height: 100%;
     margin: 0%;
     background-color: #222;
     color: #fff;
     text-align: center;
     font-family: Poppins;
+}
+
+.gradient {
+    background:linear-gradient(135deg,#FEE75C,#ED4245,#EB459E,#3681f1);
+    color:#fff
 }
 
 .topnav {
@@ -17,7 +23,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 4px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -33,6 +39,11 @@ body {
 }
 
 .topnav .logo {
-    filter: invert(100%);
     float: right;
+}
+
+.footer {
+    background-color: #111;
+    padding: 2px;
+    text-align: left;
 }
