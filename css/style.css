@@ -1,49 +1,54 @@
 @import url(https://fonts.googleapis.com/css2?&family=Poppins&display=swap);
 
 body {
-    height: 100%;
-    margin: 0%;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    font-family: Poppins;
+	height: 100%;
+	margin: 0%;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	font-family: Poppins;
+	overflow-x: hidden;
+}
+
+a {
+	color: #5865f2;
 }
 
 .gradient {
-    background:linear-gradient(135deg,#FEE75C,#ED4245,#EB459E,#3681f1);
-    color:#fff
+	background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
+	color: #fff;
 }
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+	background-color: #333;
+	overflow: hidden;
 }
-  
+
 .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 2px 4px;
-    text-decoration: none;
-    font-size: 17px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 2px 4px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: #666;
-    color: black;
+	opacity: 60%;
+	color: black;
 }
 
 .topnav a.active {
-    background-color: #999;
-    color: white;
+	background-color: #999;
+	color: white;
 }
 
 .topnav .logo {
-    float: right;
+	float: right;
 }
 
 .footer {
-    background-color: #111;
-    padding: 2px;
-    text-align: left;
+	background-color: #111;
+	padding: 2px;
+	text-align: left;
 }
