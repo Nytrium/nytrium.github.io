@@ -1,177 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <meta
-            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-            name="viewport"
-    />
-    <title>The Cool Boiz Pt. 2</title>
-    <meta content="The Cool Boiz Pt. 2" property="og:title"/>
-    <meta content="We push buttons and type" property="og:description"/>
-    <meta content="Da kool boiz" property="og:site_name"/>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="assets/css/dark-mode.css" rel="stylesheet"/>
-    <link
-            href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-            rel="stylesheet"
-    />
-    <link href="assets/fonts/ionicons.min.css" rel="stylesheet"/>
-    <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-            rel="stylesheet"
-    />
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/styles.min.css"/>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
-
-
-<div id="main">
-    <nav
-            class="
-        navbar navbar-dark navbar-expand-lg
-        fixed-top
-        bg-white
-        portfolio-navbar
-        gradient
-      "
-            style="background-size: auto; background-color: rgb(255, 255, 255)"
-    >
-        <div style="z-index: 1;">
-            <button class="openbtn" onclick="openNav()">&#9776;</button>
-        </div>
-        <div class="container">
-
-
-            <a
-                    class="navbar-brand logo"
-                    data-toggle="tooltip"
-                    data-bs-tooltip=""
-                    href="#"
-                    style="width: 303px; font-size: 21px"
-            ><img
-                    src="assets/img/3357f32aea8abce1b16fa1cb0842b9d3.png"
-                    style="width: 38px"
-            />&nbsp; &nbsp;The Cool Boiz Pt. 2 (very cool)</a
-            >
-            <nav class="navbar-nav">
-                <div class="nav-link"></div>
-            </nav>
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" href="old.html">Go back to the old website</a>
-                </li>
-            </ul>
-            <div class="custom-control custom-switch align-righ">
-                <input type="checkbox" class="custom-control-input" id="darkSwitch"/>
-                <label class="custom-control-label" for="darkSwitch"
-                >Dark Mode</label
-                >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js"></script>
+        <title>Home - ByteCoders</title>
+        <link rel="shortcut icon" type="image/png" href="./images/icon.png">
+        <meta content="Home - ByteCoders" property="og:title">
+        <meta content="ByteCoders" property="og:site_name">
+        <meta content="./images/icon.png" property="og:image">
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <a href="./index.html" class="logo">
+                <img src="images/icon.png" width=64px height=64px></a>
             </div>
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#about-me">About</a>
-                <a href="https://github.com/TheCoolBoizPt2/Opencore-EFIs" target="_blank">OpenCore EFIs</a>
-                <a href="https://github.com/TheCoolBoizPt2/hello-world" target="_blank">Hello world!</a>
-            </div>
-            <script>
-                /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-                function openNav() {
-                    document.getElementById("mySidebar").style.width = "400px";
-                    document.getElementById("main").style.marginLeft = "400px";
-                }
+        </header>
 
-                /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-                function closeNav() {
-                    document.getElementById("mySidebar").style.width = "0";
-                    document.getElementById("main").style.marginLeft = "0";
-                }
-            </script>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container">
-                <div
-                        class="avatar"
-                        style="
-              background-image: url('assets/img/3357f32aea8abce1b16fa1cb0842b9d3.png');
-            "
-                ></div>
-                <div class="about-me" id="about-me">
-                    <p id="intro"></p>
-                    <script>
-                        var i = 0;
-                        var txt = 'Hello! Welcome to our website. We are a group consisting of two people, that do stupid stuff together. Oh, and if it wasn\'t obvious enough, we have a passion for minimal and clean looking interfaces, too.';
-                        var speed = 25;
-
-                        function typeWriter() {
-                            if (i < txt.length) {
-                                document.getElementById("intro").innerHTML += txt.charAt(i);
-                                i++;
-                                setTimeout(typeWriter, speed);
-                            }
-                        }
-
-                        window.onload = typeWriter;
-                    </script>
-                </div>
-                <div class="about-me">
-                    <a
-                            class="btn btngradient text-center"
-                            role="button"
-                            href="https://github.com/TheCoolBoizPt2"
-                            target="_blank"
-                    >Visit our GitHub!
-                    </a>
-                    <a
-                            class="btn btngradient text-center"
-                            role="button"
-                            href="https://discord.gg/eFXg6pG8bC"
-                            target="_blank"
-                    >Join our Discord server!</a>
-                </div>
+        <main>
+            <h1 class="title" style="font-size: 50px;"><b>ByteCoders</b></h1>
+            <br>
+            <div class="about-us" style="font-size: 18px;">
+                <p>Welcome to our site and thank you for visiting our website!<br>
+                    We are a small coding team consisting of two people that really enjoy doing stupid stuff together, Jakub and Jason.<br>
+                    Both of us have a passion for minimal and clean looking interfaces, too, in case that wasn't obvious enough yet.</p>
             </div>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <div class="container">
-            <small style="font-size: 21px">Follow us here!</small>
-            <div class="links">
-                <div class="links"></div>
-                <div class="links"></div>
-            </div>
-            <div class="social-icons">
-                <a href="https://youtube.com/pixelicious"
-                ><i class="icon ion-social-youtube"></i></a
-                ><a href="https://instagram.com/actuallypix3l_"
-            ><i class="icon ion-social-instagram-outline"></i></a
-            ><a href="https://twitter.com/poonxal"
-            ><i class="icon ion-social-twitter"></i></a
-            ><small>&nbsp; &nbsp; Jason --- Kuba&nbsp; &nbsp;&nbsp;</small>
-                <a href="https://youtube.com/channel/UC2rcJTTb2T1piHpBoXTVxyg"
-                ><i class="icon ion-social-youtube"></i></a
-                ><a href="https://instagram.com/losowylp"
-            ><i class="icon ion-social-instagram-outline"></i></a
-            ><a href="https://twitter.com/losowy_lp"
-            ><i class="icon ion-social-twitter"></i
-            ></a>
-            </div>
-        </div>
-        <small>Made with ❤️ by Jason and Kuba.</small>
-</div>
-</footer>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/dark-mode-switch.min.js"></script>
-<script src="hassets/js/pikaday.min.js"></script>
-<script src="assets/js/script.min.js"></script>
-</body>
+        </main>
+    </body>
 </html>
