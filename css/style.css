@@ -1,59 +1,96 @@
 @import url(https://fonts.googleapis.com/css2?&family=Poppins&display=swap);
 
 body {
-	background-color: #222;
-	color: #fff;
-	font-family: Poppins;
-	height: 100%;
-	margin: 0%;
-	overflow-x: hidden;
-	text-align: center;
+  background-color: #222;
+  color: #fff;
+  font-family: Poppins;
+  height: 100%;
+  margin: 0%;
+  overflow-x: hidden;
+  text-align: center;
 }
 
 a {
-	color: #5865f2;
+  color: #5865f2;
 }
 
 .navbar {
-	background-color: #212121;
-	margin: 0;
-	overflow: hidden;
-	padding: 5px;
+  background-color: #212121;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px;
 }
 
 .gradient {
-	background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
-	color: #fff;
+  background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
+  color: #fff;
 }
 
 .topnav {
-	overflow: hidden;
+  overflow: hidden;
+  text-align: left;
 }
 
 .topnav a {
-	color: black;
-	float: left;
-	font-size: 32px;
-	padding: 0px 15px;
-	text-align: center;
-	text-decoration: none;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  padding: 0px 15px;
+  text-decoration: none;
 }
 
 a:hover {
-	opacity: 60%;
+  opacity: 60%;
 }
 
 .topnav a.active {
-	background-color: #999;
-	color: white;
+  background-color: #999;
+  color: white;
 }
 
 .topnav .logo {
-	float: right;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}   
+  
+.btngradient {
+    background-color: #3689e6;
+    box-shadow: 3px 5px 5px #00000050;
+    border-radius: 1000px;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+  
+.btngradient:hover {
+    background-color: #de3e80;
+    color: #fff;
+    transform: scale(1.11) perspective(1px)
 }
 
 .footer {
-	background-color: #111;
-	padding: 2px;
-	text-align: left;
+    background-color: #111;
+    padding: 1px;
+    text-align: left;
 }
