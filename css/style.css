@@ -5,7 +5,7 @@ body {
   color: #fff;
   font-family: Poppins;
   height: 100%;
-  margin: 0%;
+  margin: 0;
   overflow-x: hidden;
   text-align: center;
 }
@@ -14,83 +14,82 @@ a {
   color: #5865f2;
 }
 
-.navbar {
-  background-color: #212121;
-  margin: 0;
-  overflow: hidden;
-  padding: 5px;
-}
-
-.gradient {
-  background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
-  color: #fff;
-}
-
 .topnav {
+  background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
   overflow: hidden;
   text-align: left;
+  padding: 0px 10px;
+}
+
+.old {
+  padding: 15px 15px;
+  overflow: hidden;
+  text-align: right;
 }
 
 .topnav a {
-  vertical-align: middle;
-  color: rgb(255, 255, 255);
-  font-size: 32px;
-  padding: 0px 15px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 18px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-a:hover {
+.topnav a:hover {
   opacity: 60%;
 }
 
 .topnav a.active {
-  background-color: #999;
-  color: white;
+  background-color: #fff;
+  color: #222;
 }
 
-.topnav .logo {
-    height: 40px;
-    line-height: 40px;
-    vertical-align: middle;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
+.main .logo {
+  float: right;
+  vertical-align: middle;
 }
 
 .btn {
-    border-radius: 5px;
-    padding: 10px 40px;
-    font-size: 22px;
-    text-decoration: none;
-    margin: 10px;
-    color: #fff;
-    position: relative;
-    display: inline-block;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
 }
 
 .btn:active {
-    transform: translate(0px, 5px);
-    -webkit-transform: translate(0px, 5px);
-    box-shadow: 0px 1px 0px 0px;
-}   
-  
-.btngradient {
-    background-color: #3689e6;
-    box-shadow: 3px 5px 5px #00000050;
-    border-radius: 1000px;
-    transition: all 1s ease;
-    transform: scale(1);
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
 }
-  
+
+.btngradient {
+  background-color: #3689e6;
+  box-shadow: 3px 5px 5px #00000050;
+  border-radius: 1000px;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
 .btngradient:hover {
-    background-color: #de3e80;
-    color: #fff;
-    transform: scale(1.11) perspective(1px)
+  background-color: #de3e80;
+  color: #fff;
+  transform: scale(1.11) perspective(1px);
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 
 .footer {
-    background-color: #111;
-    padding: 1px;
-    text-align: left;
+  background-color: #111;
+  padding: 1px;
+  text-align: left;
 }
