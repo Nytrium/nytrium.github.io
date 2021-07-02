@@ -8,7 +8,7 @@
     <meta content="Disclaimer - ByteOverload" property="og:title" />
     <meta content="ByteOverload" property="og:site_name" />
     <meta content="./images/icon.png" property="og:image" />
-    <title>Home - ByteOverload</title>
+    <title>Disclaimer - ByteOverload</title>
   </head>
   <body>
     <main>
@@ -35,43 +35,6 @@
         target="_blank"
         >Continue to the website
       </a>
-      <div class="modal">
-        <div class="modal-header">
-          <span class="close-btn">&times;</span>
-          <h1>⚠️ DISCLAIMER!</h1>
-        </div>
-        <div class="modal-content">
-          <h2>
-            This site is not yet finished, and most of the pages are missing.
-          </h2>
-        </div>
-        <div class="modal-footer">
-          <h2>
-            Please be patient while we work on this site and report any bugs
-            that you find on our
-            <a
-              href="https://github.com/ByteOverload/bugtracker"
-              title="Our GitHub Bugtracker."
-              >bugtracker on GitHub</a
-            >.
-          </h2>
-        </div>
-        <script>
-          let modalBtn = document.getElementById("modal-btn");
-          let modal = document.querySelector(".modal");
-          let closeBtn = document.querySelector(".close-btn");
-          modalBtn.onclick = function () {
-            modal.style.display = "block";
-          };
-          closeBtn.onclick = function () {
-            modal.style.display = "none";
-          };
-          window.onclick = function (e) {
-            if (e.target == modal) {
-              modal.style.display = "none";
-            }
-          };
-        </script>
       </div>
     </main>
 
