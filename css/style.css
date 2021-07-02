@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?&family=Poppins&display=swap);
+
+body {
+	background-color: #222;
+	color: #fff;
+	font-family: Poppins;
+	height: 100%;
+	margin: 0%;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+a {
+	color: #5865f2;
+}
+
+.navbar {
+	background-color: #212121;
+	margin: 0;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.gradient {
+	background: linear-gradient(135deg, #fee75c, #ed4245, #eb459e, #3681f1);
+	color: #fff;
+}
+
+.topnav {
+	overflow: hidden;
+}
+
+.topnav a {
+	color: black;
+	float: left;
+	font-size: 32px;
+	padding: 0px 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 60%;
+}
+
+.topnav a.active {
+	background-color: #999;
+	color: white;
+}
+
+.topnav .logo {
+	float: right;
+}
+
+.footer {
+	background-color: #111;
+	padding: 2px;
+	text-align: left;
+}
