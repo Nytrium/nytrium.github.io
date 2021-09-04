@@ -2,39 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" type="image/png" href="./images/icon.png" />
-    <meta content="Disclaimer - ByteOverload" property="og:title" />
+    <meta content="Home - ByteOverload" property="og:title" />
     <meta content="ByteOverload" property="og:site_name" />
     <meta content="./images/icon.png" property="og:image" />
-    <title>Disclaimer - ByteOverload</title>
+    <title>Home - ByteOverload</title>
   </head>
   <body>
+    <header>
+      <navbar>
+        <div class="topnav">
+          <a class="active" href="./site.html">Home</a>
+          <a href="./socials.html">Socials</a>
+        </div>
+        <div class="old">
+          <a href="./old.html">Go back to the old website -></a>
+        </div>
+      </navbar>
+    </header>
+
     <main>
-      <h1 class="title" style="font-size: 50px">
-        <b>This website is not finished.</b>
-      </h1>
-      <br />
-      <h2 class="title" style="font-size: 30px">
-        <b>Hi there, thank you for being curious about our new site! 😄</b>
-      </h2>
-      <h3 class="title" style="font-size: 27px">
-        <b>Right now, the website isn't finished, but you can still see it.</b>
-      </h3>
-      <h3 class="title" style="font-size: 24px">
-        <b>          Please report any bugs you see to our
-            <a href="https://github.com/byteoverload/bugtracker"
-              >bugtracker on GitHub</a
-            >.</b>
-      </h3>
-      <a
-        class="btn btngradient text-center"
-        role="button"
-        href="site.html"
-        target="_blank"
-        >Continue to the website
-      </a>
+      <img src="./images/hero.png" class="hero" width=50% height=50%>
+      <h1 class="title" style="font-size: 50px"><b>ByteOverload</b></h1>
+      <div class="about-us" style="font-size: 18px">
+        <p>
+          Hey there, welcome to our website! 👋🏼<br />
+          We are a group of two people that really enjoy doing stupid shit
+          together,
+          <abbr title="Better known as losowyLP.">Jakub</abbr> and
+          <abbr title="Better known as Pix3l_.">Jason</abbr>.<br />
+          Both of us have a passion for minimal and clean looking interfaces,
+          too, in case that wasn't obvious enough yet.
+        </p>
       </div>
     </main>
 
@@ -47,13 +48,12 @@
           left: 0;
           overflow: hidden;
           width: 100%;
-          text-indent: 8px;
+          text-indent: 10px;
         "
       >
         <p>
           © 2021 ByteOverload. All rights reserved.
         </p>
-      </div>
     </footer>
   </body>
 </html>
