@@ -93,3 +93,17 @@ a {
   padding: 1px;
   text-align: left;
 }
+
+@keyframes hr {
+  0% {
+	width: 0;
+  }
+  100% {
+	width: 90%;
+  }
+}
+
+hr {
+	animation: hr 2s ease-in-out;
+	width: 90%;
+}
